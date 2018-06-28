@@ -1,9 +1,10 @@
-body {
+﻿body {
   background: #333;
-  color: #fff; }
+  color: #fff;
+  text-align:center; }
 
 .navbar {
-  border-bottom: #008ed6 3px solid;
+  border-bottom: #128ed6 3px solid;
   opacity: 0.8; }
 
 #home-section {
@@ -34,3 +35,13 @@ body {
   background: #fff;
   padding: 4px;
   border-radius: 5px; }
+  
+  #tab{
+  font-size:large;
+  padding-left:20px;
+  padding-right:20px;
+  text-align:center;
+  
+  
+	
+}
