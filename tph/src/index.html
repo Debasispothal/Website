@@ -8,10 +8,11 @@
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/style.css">
-        <title>cOOl theme</title>
+        <title>Production</title>
     </head>
 
-    <body>
+    <body onload="Function1()" >
+      <div id="loader"></div>
       <!-- tabs --->
 
   <!--  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
@@ -44,11 +45,14 @@
       </div>
       </div>
     </nav>-->
+    <div id="mydiv" style="display:none;" class="animate-bottom" >
+      <img src="css/logo.png" alt="SK" align="right" style="z-index: 10;max-width:10%; height:auto;position: fixed;top: 10px;left: 6px;">
+  <div style="z-index:5;position:relative;" class="container">
     <div id="tab">
 
     <nav class="navbar navbar-expand-sm bg-dark justify-content-center fixed-top">
 
-      
+
       <ul class="nav nav-tabs">
     <li class="nav-item">
       <a class="nav-link" href="#"><font color="#ffffff">| HOME |</font></a>
@@ -60,15 +64,15 @@
       <a class="nav-link" href="#"><font color="#ffffff">| GALLARY |</font></a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#"><font color="#ffffff">| CONTACT |</font></a>
+      <a class="nav-link" href="contact.html"><font color="#ffffff">| CONTACT |</font></a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#"><font color="#ffffff">| ACCOLADES |</font></a>
+      <a class="nav-link" href="accolades.html"><font color="#ffffff">| ACCOLADES |</font></a>
     </li>
   </ul>
 
 </nav>
-
+</div>
 </div>
 
 
@@ -88,8 +92,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 d-none d-lg-block">
-          <h1 class="display-4">Build <b>Social Profile</b> and gain revenue
-           and <b>profits</b></h1>
+          <h1 class="display-4"><b>TPH</b></h1>
               <div class="d-flex flex-row">
                 <div class="p-4 align-self-start">
                  <i class="fa fa-check fa-lg"></i>
@@ -381,8 +384,19 @@
     </div>
   </div>
 </div>
+</div>
+<script>
+var myVar;
 
+function Function1() {
+myVar = setTimeout(showPage, 6000);
+}
 
+function showPage() {
+document.getElementById("loader").style.display = "none";
+document.getElementById("mydiv").style.display = "block";
+}
+</script>
         <script src="js/jquery.min.js"></script>
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>

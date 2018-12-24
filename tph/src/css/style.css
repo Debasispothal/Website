@@ -3,6 +3,35 @@
   color: #fff;
   text-align:center; }
 
+#loader{
+	
+		width: 380px;
+	height: 380px;
+	position: fixed;
+	left: 43%;
+	top: 40%;
+	background-image: url(img3.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: -100px 0 0 -100px;
+
+
+}
+#loader2{
+		width: 380px;
+	height: 380px;
+	position: fixed;
+	left: 43%;
+	top: 40%;
+	background-image: url(img2.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: -100px 0 0 -100px;
+
+}
+#mydiv{
+	display:none
+}
 .navbar {
   border-bottom: #128ed6 3px solid;
   opacity: 0.8; }
@@ -12,8 +41,17 @@
   background-size: cover;
   background-attachment: fixed;
   min-height: 700px; }
+  
+  #home-section2 {
+  background: url("https://images.pexels.com/photos/147413/twitter-facebook-together-exchange-of-information-147413.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 800px; 
+  }
+
   #home-section .home-inner {
     padding-top: 150px; }
+    
   #home-section .dark-overlay {
     background-color: rgba(0, 0, 0, 0.7);
     position: absolute;
@@ -21,6 +59,18 @@
     left: 0;
     width: 100%;
     min-height: 700px; }
+    
+      #home-section2 .home-inner {
+    padding-top: 150px; }
+    
+  #home-section2 .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 800px; }
+
   #home-section .card-form {
     opacity: 0.8; }
 
@@ -45,3 +95,4 @@
   
 	
 }
+
