@@ -37,13 +37,13 @@
   opacity: 0.8; }
 
 #home-section {
-  background: url("https://images.pexels.com/photos/147413/twitter-facebook-together-exchange-of-information-147413.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat;
+  background: url("back3.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   min-height: 700px; }
   
   #home-section2 {
-  background: url("https://images.pexels.com/photos/147413/twitter-facebook-together-exchange-of-information-147413.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat;
+  background: url("back3.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   min-height: 800px; 
@@ -72,7 +72,7 @@
     min-height: 800px; }
     
       #home-section3 {
-  background: url("https://images.pexels.com/photos/147413/twitter-facebook-together-exchange-of-information-147413.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat;
+  background: url("back3.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   min-height: 1700px; 
@@ -87,6 +87,24 @@
     left: 0;
     width: 100%;
     min-height: 1700px; }
+    
+          #home-section4 {
+  background: url("back3.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 1780px; 
+  }
+     #home-section4 .home-inner {
+    padding-top: 100px; }
+    
+  #home-section4 .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 1780px; }
+
 
 
   #home-section .card-form {
@@ -113,7 +131,25 @@
   
 	
 }
+#imh2{
+	
+	border:5px solid grey;
+	
+}
+#imh2:hover{
+	
+	border:5px solid white;
+}
 #imh{
-	border:2px solid black;margin:0;
+	border:3px solid grey;
+	width:100%;
+	height:100%;
+}
+#imh:hover{
+	border:3px solid white;
 }
 
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
