@@ -8,46 +8,47 @@
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/style.css">
-          <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">-->
-        <title>Production</title>
+        <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">-->
+        <title>TPH home</title>
 
 
     </head>
-
+ <div class="dark-overlay">
     <body onload="Function1()" >
       <div id="loader2"></div>
+    </div>
 
 <div id="mydiv" style="display:none;" class="animate-bottom" >
       <!--NAVBAR SECTION-->
       <img src="css/logo.png" alt="SK" align="right" style="z-index: 10;max-width:10%; height:auto;position: fixed;top: 10px;left: 6px;">
+
   <div style="z-index:5;position:relative;" class="container">
-    <div id="tab">
+<div id="tab">
+        <nav class="navbar navbar-expand-sm bg-dark justify-content-center fixed-top">
 
-    <nav class="navbar navbar-expand-sm bg-dark justify-content-center fixed-top">
 
+          <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link" href="index2.html"><font color="#ffffff">| HOME |</font></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><font color="#ffffff">| ABOUT US |</font></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><font color="#ffffff">| GALLARY |</font></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html"><font color="#ffffff">| CONTACT |</font></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><font color="#ffffff">| ACCOLADES |</font></a>
+        </li>
+      </ul>
 
-      <ul class="nav nav-tabs">
-    <li class="nav-item">
-      <a class="nav-link" href="index2.html"><font color="#ffffff">| HOME |</font></a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#"><font color="#ffffff">| ABOUT US |</font></a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#"><font color="#ffffff">| GALLARY |</font></a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="contact.html"><font color="#ffffff">| CONTACT |</font></a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#"><font color="#ffffff">| ACCOLADES |</font></a>
-    </li>
-  </ul>
-
-</nav>
-
+    </nav>
 </div>
-  </div>
+    </div>
+
 
   <!---->
 
@@ -56,7 +57,7 @@
     <!--HOME SECTION-->
 
 
-    <header id="home-section">
+    <header id="home-section3">
     <div class="dark-overlay">
       <div class="home-inner">
       <div class="container">
@@ -64,11 +65,14 @@
         <h1 class="elegant elegantshadow" align="center" style="font-family:Verdana, Tahoma, sans-serif;font-style:"inherit";font-weight:200;"><u><font color="white" size="25px">Accolades</font></u></h1>
 <br>
   <div class="container">
-    <div id="accordion" role="tablist">
-        <div class="card text-white bg-info mb-3">
+    <div id="accordion" role="tablist" align="center">
+        <div class="card text-dark bg-light mb-3" style="width:50rem" >
+          <div id="imh">
+          <img src="css/i1.jpg" title="SEA KIIT" style="width:20rem;border:3px solid black;margin:0;">
+        </div>
           <div class="card-header" role="tab" id="heading" align="center">
             <h5 class="mb-0"><a href="#collapse1" data-parent="#accordion" data-toggle="collapse">
-              <font size=6 color="white">Congratulation!!</font>
+              <font size=6 color="black">Congratulation!!</font>
             </a></h5>
           </div>
 
@@ -80,10 +84,13 @@
         </div>
         <br>
 
-        <div class="card text-white bg-info mb-3">
+        <div class="card text-dark bg-light mb-3" style="width:50rem">
+          <div id="imh">
+          <img src="css/i2.jpg" title="SEA KIIT" style="width:20rem;border:3px solid black;margin:0;">
+</div>
           <div class="card-header" role="tab" id="heading" align="center">
             <h5 class="mb-0"><a href="#collapse2" data-parent="#accordion" data-toggle="collapse">
-              <font size=6 color="white">Congratulation!!</font>
+              <font size=6 color="black">Congratulation!!</font>
             </a></h5>
           </div>
 
@@ -94,10 +101,13 @@
           </div>
         </div>
           <br>
-        <div class="card text-white bg-info mb-3">
+        <div class="card text-dark bg-light mb-3" style="width:50rem">
+<div id="imh">
+        <a href="#myModel" > <img src="css/i3.jpg" title="SAE KIIT" style="width:20rem;border:3px solid black;margin:0;"></a>
+</div>
           <div class="card-header" role="tab" id="heading" align="center">
             <h5 class="mb-0"><a href="#collapse3" data-parent="#accordion" data-toggle="collapse">
-              <font size=6 color="white">Congratulation!!</font>
+              <font size=6 color="black">Congratulation!!</font>
             </a></h5>
           </div>
 
@@ -110,7 +120,26 @@
       </div>
     </div>
 </div>
+<!--<button class="btn btn-primary" data-toggle="modal" data-target="#myModal">Launch Modal</button>-->
 
+<!-- MODAL -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal Title</h5>
+        <button class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <div class="modal-body">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus unde veniam harum magnam molestias dignissimos omnis architecto, quod, obcaecati dolorum debitis dolore porro qui, iusto quo accusantium voluptates pariatur illo.
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 
     </div>
@@ -138,7 +167,7 @@
 var myVar;
 
 function Function1() {
-myVar = setTimeout(showPage, 2000);
+myVar = setTimeout(showPage, 3000);
 }
 
 function showPage() {
