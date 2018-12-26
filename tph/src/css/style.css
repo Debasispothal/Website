@@ -109,6 +109,12 @@
 
   #home-section .card-form {
     opacity: 0.8; }
+      #home-section3 .card-form {
+    opacity: 1; }
+    #home-section3 .deal {
+    opacity:1; }
+
+
 
 #explore-section .fa, #share-section .fa {
   color: white;
